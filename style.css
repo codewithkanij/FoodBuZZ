@@ -1,12 +1,13 @@
 body{
     margin:0%;
-    font-family:poppins,sans-serif;
+    font-family:poppins,sans-serif;    <!---------"poppins,sans-serif" purotai font er type!------->
 }
 header{
     display:flex;
 }
 .logo{
-    display:flex;
+    display:flex;             <--------logo class tar moddhe jotogula child tag thakbe sobguloke shomantoral kore felbe!------------- >
+
     font-size: 0.8em;
     margin:2%;
  
@@ -18,7 +19,7 @@ header > div:nth-child(2) {
     margin:2%;
 }
 header img{
-    height:40px;
+    height:40px;             <!--------header tag er vhitor image tag er height!--------->
 }
 .design-section{
     display: flex;
@@ -38,7 +39,8 @@ section img{
 
 h1{
     font-size: 40px;
-    text-align:justify;
+    text-align:justify;              <!------------justify mane duipashe line er ending shoman rakha!-------------->
+
     margin:2%;
 }   
 .pera{
@@ -62,18 +64,22 @@ header div{
     text-decoration: none;
 }
 .order{
-    text-decoration: none;
+    text-decoration: none;                  <!-------link er nicher horizontal line ta chole jabe--------!>
+
+
     font-size: 30px;
     background-image: linear-gradient(salmon, orangered);
     border-image-slice: 1;
     color:aliceblue;
     padding:12px 60px 10px 40px;
-    margin-left:0px;
+    margin-left: 0px;
     margin-bottom:2000px;
     border-radius:15px;
 }
 .about{
-    background-image: url(images/frame.png);
+    background-image: url(images/frame.png);                   <!----------bg image dile url dite hoy!_-------------->
+
+
     background-repeat: no-repeat;
     margin:0%;
 }
@@ -108,7 +114,7 @@ h2{
     padding-top: 40px;
     border-radius: 40px;
 }
-.footer-section{
+footer{
     text-align: center;
     background: #000;
 }
