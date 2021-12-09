@@ -1,12 +1,12 @@
 body{
     margin:0%;
-    font-family:poppins,sans-serif;    /*"poppins,sans-serif" purotai font er type*/
+    font-family:poppins,sans-serif;               /*"poppins,sans-serif" purotai font er type*/
 }
 header{
     display:flex;
 }
 .logo{
-    display:flex;             /*logo class tar moddhe jotogula child tag thakbe sobguloke shomantoral kore felbe*/
+    display:flex;                                 /*logo class tar moddhe jotogula child tag thakbe sobguloke shomantoral kore felbe*/
 
     font-size: 0.8em;
     margin:2%;
@@ -19,7 +19,7 @@ header > div:nth-child(2) {
     margin:2%;
 }
 header img{
-    height:40px;             /*header tag er vhitor image tag er height*/
+    height:40px;                                  /*header tag er vhitor image tag er height*/
 }
 .design-section{
     display: flex;
@@ -39,7 +39,7 @@ section img{
 
 h1{
     font-size: 40px;
-    text-align:justify;              /*justify mane duipashe line er ending shoman rakha*/
+    text-align:justify;                        /*justify mane duipashe line er ending shoman rakha*/
 
     margin:2%;
 }   
@@ -64,7 +64,7 @@ header div{
     text-decoration: none;
 }
 .order{
-    text-decoration: none;               /*link er nicher horizontal line ta chole jabe*/
+    text-decoration: none;                      /*link er nicher horizontal line ta chole jabe*/
 
 
     font-size: 30px;
